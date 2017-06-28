@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Adeel Imran</title>
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/nav-style.css" rel="stylesheet">
+    <link href="css/main-style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  </head>
+  <body class="home-body-bg">
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="skills.html">Skills</a>
+    </div>
+    <div class="nav-menu-icon-body">
+      <span class="nav-menu-icon" onclick="toggleNav()">&#9776;</span>
+    </div>
+
+    <div id="main">
+      
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 v-align">
+            <h1 class="heading">developer</h1>
+            <p class="paragraph">full stack developer. I love wirtting code, like literally love 
+            writting code, seriously! Indented code is <span class="red"><3</span>, it’s bae<p>
+            <h1 class="heading">ui/ux designer</h1>
+            <p class="paragraph">designer with a passion for making something unqiue that 
+            ignites a spark. I love working on building an amazing user experience<p>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="home-banner">
+              <img src="images/half-me.png" class="img-responsive" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/nav.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $('.heading').addClass('animated jello');    
+        $('.paragraph').addClass('animated fadeIn');    
+        $('.home-banner').addClass('animated fadeInRight');    
+      })
+    </script>
+  </body>
+</html>

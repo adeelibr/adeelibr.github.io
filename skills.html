@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Adeel Imran</title>
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/nav-style.css" rel="stylesheet">
+    <link href="css/main-style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  </head>
+  <body class="home-body-bg">
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="skills.html">Skills</a>
+    </div>
+    <div class="nav-menu-icon-body">
+      <span class="nav-menu-icon" onclick="toggleNav()">&#9776;</span>
+    </div>
+
+    <div id="main">
+      
+      <div class="container-fluid page">
+        <h1 class="heading">skills
+        <small>
+          things even a <span class="red">jedi</span> can't do
+        </small>
+        </h1>
+
+        <div class="row">
+          <div class="col-md-4 col-sm-5">
+            <h3>UI/UX Design <small>when i am working as an artist</small></h3>
+            <ul>
+              <li>Web Design UI/UX</li>
+              <li>Icons Illustration</li>
+              <li>Image Manipulation Surreal Art</li>
+              <li>Digital Painting</li>
+              <li>Logo Designing</li>
+              <li>Brand & Print Media</li>
+              <li>Graphic Design</li>
+              <li>PSD To Pixel Perfect Responsive HTML Conversion</li>
+              <li>Tools Adobe Photoshop, Adobe Illustrator</li>
+            </ul>
+            <h3>Project Managment <small>because even superheroes need to manage
+              their time</small></h3>
+            <ul>
+              <li>Jira, Asana, Basecamp, Trello</li>
+            </ul>
+          </div>
+          <div class="col-md-8 col-sm-7">
+            <h3>Frontend <small>things i do magic with</small></h3>
+            <ul>
+              <li>Javascript/Nodejs, ECMAScript 2015 (ES6)</li>
+              <li>React, Redux, Angular 4, React Native</li>
+              <li>jQuery, Lodash</li>
+              <li>Bootstrap 3 & 4, React Material UI</li>
+              <li>HTML5, CSS3, SCSS, Flex Layouts</li>
+            </ul>
+            <h3>Backend <small>things i do behind the curtain</small></h3>
+            <ul>
+              <li>Mongoose, Sequelize (ORM)</li>
+              <li>MongoDB, MySQL</li>
+              <li>Express, Socket.io, JSON Web Tokens (JWT)</li>
+              <li>Bundling: Webpack</li>
+              <li>Version Control: Git, Guthub,Bitbucket</li>
+              <li>Amazon Web Services, Amazon Simple Storage (S3)</li>
+              <li>PM2 Deployments</li>
+            </ul>
+          </div>
+        </div>
+      </div> <!-- End of container -->
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/nav.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $('.heading').addClass('animated fadeInRight');    
+        $('h3').addClass('animated fadeInLeft');    
+      })
+    </script>
+  </body>
+</html>

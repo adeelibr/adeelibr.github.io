@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Adeel Imran</title>
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/nav-style.css" rel="stylesheet">
+    <link href="css/main-style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <script src="https://use.fontawesome.com/5435d241c2.js"></script>
+  </head>
+  <body class="home-body-bg">
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="skills.html">Skills</a>
+    </div>
+    <div class="nav-menu-icon-body">
+      <span class="nav-menu-icon" onclick="toggleNav()">&#9776;</span>
+    </div>
+
+    <div id="main">
+      
+      <div class="container-fluid page">
+        <div class="row">
+          <div class="col-md-6 col-sm-6">
+            <div class="about-banner">
+              <img src="images/full-me.png" class="img-responsive" />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 v-align">
+            <h1 class="heading">about adeel</h1>
+            <p class="paragraph">
+              I am a full stack dev & designer focusing on making a great UI/UX. I have 
+              a passion for working with startups and product based
+              companies in assisting them in making an outstanding product. I live Lahore, 
+              Pakistan with my 2 dogs. I have worked with clients from all over the world
+              over the past few years.
+            </p>
+            <p class="paragraph">
+              I enjoy taking complicated problems & turning them into simple, elegant 
+              solutions. I love writting beautiful code that is written structurally & 
+              indented properly.
+            </p>
+            <p class="paragraph">
+              When I am not doing some ninja skills with the code or fighting crime, 
+              you'll probably find me in the gym or at a coffee shop sipping on 
+              some good caffacino.
+            </p>
+            <div>
+              <p>
+                <a href="https://twitter.com/adeelibr" target="_blank">
+                  <i class="fa fa-twitter fa-2x fa-fw" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/adeelimran/" target="_blank">
+                  <i class="fa fa-linkedin fa-2x  fa-fw" aria-hidden="true"></i>
+                </a>
+                <a href="https://github.com/adeelibr" target="_blank">
+                  <i class="fa fa-github fa-2x  fa-fw" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.behance.net/adeelibr" target="_blank">
+                  <i class="fa fa-behance fa-2x  fa-fw" aria-hidden="true"></i>
+                </a>
+                <a href="mailto:adeelimranr@gmail.com?Subject=Hey!" target="_blank">
+                  <i class="fa fa-envelope fa-2x  fa-fw" aria-hidden="true"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/nav.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $('.heading').addClass('animated jello');    
+        $('p.paragraph:nth-child(even)').addClass('animated fadeInLeft');    
+        $('p.paragraph:nth-child(odd)').addClass('animated fadeInRight');    
+        $('.about-banner').addClass('animated fadeInLeft');    
+      })
+    </script>
+  </body>
+</html>
