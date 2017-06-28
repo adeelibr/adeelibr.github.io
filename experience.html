@@ -34,49 +34,47 @@
         <div class="row">
           <div class="col-md-6 col-sm-6">
             <div class="about-banner">
-              <img src="images/full-me.png" class="img-responsive" />
+              <img src="images/full-image.png" class="img-responsive" />
             </div>
           </div>
           <div class="col-md-6 col-sm-6 v-align">
-            <h1 class="heading">about adeel</h1>
-            <p class="paragraph">
-              I am a full stack dev & designer focusing on making a great UI/UX. I have 
-              a passion for working with startups and product based
-              companies in assisting them in making an outstanding product. I live in Lahore, 
-              Pakistan with my 2 dogs. I have worked with clients from all over the world
-              over the past few years.
-            </p>
-            <p class="paragraph">
-              I enjoy taking complicated problems & turning them into simple, elegant 
-              solutions. I love writting beautiful code that is written structurally & 
-              indented properly.
-            </p>
-            <p class="paragraph">
-              When I am not doing some ninja skills with the code or fighting crime, 
-              you'll probably find me in the gym or at a coffee shop sipping on 
-              some good caffacino.
-            </p>
+            <section>
+              <h1 class="heading">journey so far</h1>
+              <br />
+              <dl class="dl-horizontal">
+                <dt><a href="https://servup.io">Servup</a></dt>
+                <dd>
+                  Full Stack Software Engineer <br />
+                  February 2017 - Present
+                </dd>
+              </dl>
+              <dl class="dl-horizontal">
+                <dt><a href="https://onebytellc.com/">Onebyte</a></dt>
+                <dd>
+                  Full Stack Software Engineer <br />
+                  June 2016 - November 2016 (6 months)
+                </dd>
+              </dl>
+            </section>
+            <section>
+              <h1 class="heading">education</h1>
+              <br />
+              <dl class="dl-horizontal">
+                <dt><a href="http://www.uol.edu.pk/">Unviersity of Lahore</a></dt>
+                <dd>
+                  Bachelors In Computer Science <small class="red">(Hons)</small> <br />
+                  2012 - 2016
+                </dd>
+              </dl>
+            </section>
             <div>
-              <p>
-                <a href="https://twitter.com/adeelibr" target="_blank">
-                  <i class="fa fa-twitter fa-2x fa-fw" aria-hidden="true"></i>
-                </a>
+              <h3>
                 <a href="https://www.linkedin.com/in/adeelimran/" target="_blank">
-                  <i class="fa fa-linkedin fa-2x  fa-fw" aria-hidden="true"></i>
+                  to see in depth about my past work experiences & education head over 
+                  to my linkedin profile 
+                  <i class="fa fa-linkedin fa-fw" aria-hidden="true"></i>
                 </a>
-                <a href="https://github.com/adeelibr" target="_blank">
-                  <i class="fa fa-github fa-2x  fa-fw" aria-hidden="true"></i>
-                </a>
-                <a href="https://codepen.io/adeelibr" target="_blank">
-                  <i class="fa fa-codepen fa-2x  fa-fw" aria-hidden="true"></i>
-                </a>
-                <a href="https://www.behance.net/adeelibr" target="_blank">
-                  <i class="fa fa-behance fa-2x  fa-fw" aria-hidden="true"></i>
-                </a>
-                <a href="mailto:adeelimranr@gmail.com?Subject=Hey!" target="_blank">
-                  <i class="fa fa-envelope fa-2x  fa-fw" aria-hidden="true"></i>
-                </a>
-              </p>
+              </h3>
             </div>
           </div>
         </div>
@@ -91,8 +89,10 @@
     <script>
       $(document).ready(function () {
         $('.heading').addClass('animated jello');    
+        $('dt').addClass('animated tada');    
         $('p.paragraph:nth-child(even)').addClass('animated fadeInLeft');    
         $('p.paragraph:nth-child(odd)').addClass('animated fadeInRight');    
+        $('h3').addClass('animated bounceInUp');    
         $('.about-banner').addClass('animated fadeInLeft');    
       })
     </script>

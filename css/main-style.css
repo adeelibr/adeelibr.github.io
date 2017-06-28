@@ -62,7 +62,7 @@ h1.heading {
   word-wrap: break-word;
 }
 
-p.paragraph {
+p, p.paragraph {
   margin-top: 0;
   margin-bottom: 15px;
   color: #000;
@@ -88,12 +88,19 @@ li:hover {
   padding-left: 15px;
 }
 
+a,
+dt a,
 a .fa {
-  color: #ed5420;
+  color: #ed5420 !important;
+  text-decoration: none;
   transition: all .2s;
 }
+
+a,
+dt a:hover,
 a:hover .fa {
-  color: #fff;
+  color: #fff !important;
+  text-decoration: none !important;
   transition: all .2s;
 }
 
