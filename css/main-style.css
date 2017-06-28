@@ -18,6 +18,11 @@
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: #FFBE00;
+  overflow-x: hidden;
+
+  /*display: flex;
+  flex: 1;
+  flex-direction: column;*/
 }
 
 .home-banner img,
@@ -35,24 +40,14 @@ body {
 }
 
 .v-align {
-  height: 100vh;
+  /*height: 100vh;*/
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   flex: 1;
   /*align-self: center;*/
   justify-content: center;
   /*align-items: center;*/
-}
-
-h1.heading-main {
-  font-family: 'Milonga', cursive;
-  color: #ed5420;
-  font-size: 60px;
-  letter-spacing: -0.6px;
-  line-height: 44px;
-  padding-bottom: 6px;
-  padding-top: 6px;
-  word-wrap: break-word;
 }
 
 h1.heading {
@@ -107,9 +102,11 @@ a:hover .fa {
 }
 
 h1 small, h3 small {
-  color: #000;  
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
 }
 
  
 /* Helpers */
 .no-padding { padding: 0 }
+.padding-right { padding-right: 15px }
