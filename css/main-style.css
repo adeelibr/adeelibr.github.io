@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Milonga');
 
 /** scrollbar  */
 ::-webkit-scrollbar {
@@ -17,6 +17,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: #FFBE00;
 }
 
 .home-banner img,
@@ -43,7 +44,19 @@ body {
   /*align-items: center;*/
 }
 
+h1.heading-main {
+  font-family: 'Milonga', cursive;
+  color: #ed5420;
+  font-size: 60px;
+  letter-spacing: -0.6px;
+  line-height: 44px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  word-wrap: break-word;
+}
+
 h1.heading {
+  font-family: 'Milonga', cursive;
   color: #ed5420;
   font-size: 60px;
   /*font-weight: 700;*/
@@ -80,12 +93,21 @@ li:hover {
   padding-left: 15px;
 }
 
-a .fa, a:hover .fa, a:visited .fa {
+a .fa {
   color: #ed5420;
+  transition: all .2s;
+}
+a:hover .fa {
+  color: #fff;
+  transition: all .2s;
 }
 
-.red {
-  color: #ed5420;
+.red, h1, h2, h3 {
+  color: #ed5420 !important;
+}
+
+h1 small, h3 small {
+  color: #000;  
 }
 
  
