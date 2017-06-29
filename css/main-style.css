@@ -116,4 +116,17 @@ h1 small, h3 small {
  
 /* Helpers */
 .no-padding { padding: 0 }
+.padding { padding: 15px }
 .padding-right { padding-right: 15px }
+.padding-left { padding-left: 15px }
+.padding-top { padding-top: 15px }
+
+.margin-top { margin-top: 70px }
+
+
+
+@media screen and (max-width: 480px) {
+  .margin-top-for-sm {
+    margin-top: 50px
+  }
+}
